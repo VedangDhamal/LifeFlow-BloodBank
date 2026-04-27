@@ -1,0 +1,38 @@
+/* LifeFlow Theme System — include in every page */
+/* Usage: add class="light" or class="dark" on <html> tag */
+
+/* ── DARK MODE (default original) ───────────────────────── */
+html.dark {
+  --red:        #c0392b;
+  --red2:       #e74c3c;
+  --red-light:  #ff6b6b;
+  --bg:         #0e0c0c;
+  --surface:    #1a1515;
+  --surface2:   #241e1e;
+  --border:     #2e2525;
+  --text:       #f0ebe8;
+  --muted:      #8a7d7d;
+  --muted2:     #5a4f4f;
+  --nav-bg:     rgba(14,12,12,0.88);
+  --card-bg:    #1a1515;
+  --input-bg:   #241e1e;
+  --shadow:     rgba(0,0,0,0.4);
+}
+
+/* ── LIGHT MODE ──────────────────────────────────────────── */
+html.light {
+  --red:        #c0392b;
+  --red2:       #e74c3c;
+  --red-light:  #c0392b;
+  --bg:         #f8f5f4;
+  --surface:    #ffffff;
+  --surface2:   #f0eceb;
+  --border:     #e0d8d6;
+  --text:       #1a1010;
+  --muted:      #6b5c5c;
+  --muted2:     #9e8f8f;
+  --nav-bg:     rgba(255,255,255,0.92);
+  --card-bg:    #ffffff;
+  --input-bg:   #f5f0ef;
+  --shadow:     rgba(0,0,0,0.08);
+}
